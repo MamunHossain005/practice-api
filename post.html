@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Display All Posts</h1>
+    </header>
+    <main>
+        <section>
+            <button onclick="createPost()">Create Post</button>
+            <button onclick="patchAPost()">Patch Post</button>
+            <button onclick="deleteAPost()">Delete Post</button>
+        </section>
+        <section>
+            <h3>All Posts are here</h3>
+            <div id="posts-container">
+
+            </div>
+        </section>
+    </main>
+
+
+    <!-- scripts -->
+    <script src="./js/post.js"></script>
+</body>
+</html>
